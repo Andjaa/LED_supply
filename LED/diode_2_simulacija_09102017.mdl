@@ -1,0 +1,3840 @@
+Model {
+  Name			  "diode_2_simulacija_09102017"
+  Version		  7.7
+  MdlSubVersion		  0
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.22"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  SavedCharacterEncoding  "windows-1252"
+  slprops.hdlmdlprops {
+    $PropName		    "HDLParams"
+    $ObjectID		    1
+    Array {
+      Type		      "Cell"
+      Dimension		      2
+      Cell		      "HDLSubsystem"
+      Cell		      "diode_2_simulacija_09102017"
+      PropName		      "mdlProps"
+    }
+  }
+  SaveDefaultBlockParams  on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  MaxMDLFileLineLength	  120
+  UserBdParams		  "PhysicalModelingChecksum;PhysicalModelingParameterChecksum;PhysicalModelingProducts"
+  PhysicalModelingChecksum "2081514824"
+  PhysicalModelingParameterChecksum "3693117856"
+  PhysicalModelingProducts "SimElectronics|Simscape"
+  Created		  "Tue Oct 03 10:13:00 2017"
+  Creator		  "Korisnik"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Korisnik"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Tue Oct 10 19:29:42 2017"
+  RTWModifiedTimeStamp	  429559265
+  ModelVersionFormat	  "1.%<AutoIncrement:22>"
+  ConfigurationManager	  "None"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    2
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "diode_2_simulacija_09102017"
+    signals_		    []
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "diode_2_simulacija_09102017"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      3
+      Version		      "1.11.0"
+      Array {
+	Type			"Handle"
+	Dimension		10
+	Simulink.SolverCC {
+	  $ObjectID		  4
+	  Version		  "1.11.0"
+	  StartTime		  "0.0"
+	  StopTime		  "0.2"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "0.0001"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  ConcurrentTasks	  off
+	  Solver		  "ode15s"
+	  SolverName		  "ode15s"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  5
+	  Version		  "1.11.0"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "ModelDataLogs"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  6
+	  Version		  "1.11.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseIntDivNetSlope	  off
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  2147483647
+	  FoldNonRolledExpr	  on
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  SystemCodeInlineAuto	  off
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  UseTempVars		  off
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	  AccelParallelForEachSubsystem	on
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  7
+	  Version		  "1.11.0"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "Use local settings"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  EnableOverflowDetection off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  ModelReferenceCSMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  LoggingUnavailableSignals "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  8
+	  Version		  "1.11.0"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetTypeEmulationWarnSuppressLevel 0
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  9
+	  Version		  "1.11.0"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  10
+	  Version		  "1.11.0"
+	  SFSimEnableDebug	  on
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimBlas		  on
+	  SimCtrlC		  on
+	  SimExtrinsic		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  11
+	  Version		  "1.11.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "GenerateSLWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  TemplateMakefile	  "grt_default_tmf"
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  ProcessScriptMode	  "Default"
+	  ConfigurationMode	  "Optimized"
+	  ConfigAtBuild		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  IncludeERTFirstTime	  off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateCodeInfo	  off
+	  GenerateSLWebview	  off
+	  GenerateCodeMetricsReport off
+	  RTWCompilerOptimization "Off"
+	  CheckMdlBeforeBuild	  "Off"
+	  CustomRebuildMode	  "OnUpdate"
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      12
+	      Version		      "1.11.0"
+	      Array {
+		Type			"Cell"
+		Dimension		21
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      13
+	      Version		      "1.11.0"
+	      Array {
+		Type			"Cell"
+		Dimension		16
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"CombineOutputUpdateFcns"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"CPPClassGenCompliant"
+		Cell			"MultiInstanceERTCode"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"PortableWordSizes"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      TargetFunctionLibrary   "ANSI_C"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      FunctionExecutionProfile off
+	      CodeExecutionProfiling  off
+	      ERTCodeCoverageTool     "None"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      IsPILTarget	      off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns off
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      EnableShiftOperators    on
+	      ParenthesesLevel	      "Nominal"
+	      PortableWordSizes	      off
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    off
+	      AutosarCompliant	      off
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  14
+	  Version		  "1.11.0"
+	  Description		  "HDL Coder custom configuration component"
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    ""
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	SSC.SimscapeCC {
+	  $ObjectID		  15
+	  Version		  "1.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "Name"
+	    PropName		    "DisabledProps"
+	  }
+	  Name			  "Simscape"
+	  EditingMode		  "Full"
+	  ExplicitSolverDiagnosticOptions "warning"
+	  InputDerivativeDiagnosticOptions "warning"
+	  GlobalZcOffDiagnosticOptions "warning"
+	  SimscapeLogType	  "all"
+	  SimscapeLogName	  "simlog_ssc"
+	  SimscapeLogDecimation	  1
+	  SimscapeLogLimitData	  on
+	  SimscapeLogDataHistory  5000
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Simscape/SimMechanics"
+      ConfigPrmDlgPosition     [ 363, 51, 1253, 602 ] 
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    3
+  }
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Clock
+      DisplayTime	      off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit via back propagation"
+      LockScale		      off
+      ConvertRealWorld	      "Real World Value (RWV)"
+      RndMeth		      "Zero"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Scope
+      ModelBased	      off
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "on"
+      Grid		      "on"
+      TimeRange		      "auto"
+      YMin		      "-5"
+      YMax		      "5"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      VariableName	      "simulink_output"
+      MaxDataPoints	      "1000"
+      Decimation	      "1"
+      SampleTime	      "0"
+      FixptAsFi		      off
+      NumInputs		      "1"
+    }
+  }
+  System {
+    Name		    "diode_2_simulacija_09102017"
+    Location		    [2, 83, 1348, 715]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "77"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "160"
+    Block {
+      BlockType		      Reference
+      Name		      "C1"
+      SID		      "51"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [510, 375, 550, 415]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Capacitor"
+      SourceType	      "Capacitor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.capacitor"
+      ClassName		      "capacitor"
+      SchemaVersion	      "1"
+      c			      "2.2"
+      c_unit		      "nF"
+      v0		      "0"
+      v0_unit		      "V"
+      r			      "1e-6"
+      r_unit		      "Ohm"
+      g			      "0"
+      g_unit		      "1/Ohm"
+      i_Log		      "off"
+      v_Log		      "off"
+      vc_Log		      "off"
+      LocalVarNames	      "|i|v|vc"
+      LocalVarDescs	      "|i|v|Internal variable for voltage across capacitor term"
+      LocalVarLogging	      "[0 0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "C2"
+      SID		      "52"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [695, 445, 725, 470]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Capacitor"
+      SourceType	      "Capacitor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.capacitor"
+      ClassName		      "capacitor"
+      SchemaVersion	      "1"
+      c			      "1"
+      c_unit		      "nF"
+      v0		      "0"
+      v0_unit		      "V"
+      r			      "1e-6"
+      r_unit		      "Ohm"
+      g			      "0"
+      g_unit		      "1/Ohm"
+      i_Log		      "off"
+      v_Log		      "off"
+      vc_Log		      "off"
+      LocalVarNames	      "|i|v|vc"
+      LocalVarDescs	      "|i|v|Internal variable for voltage across capacitor term"
+      LocalVarLogging	      "[0 0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CCR1"
+      SID		      "74"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [1050, 226, 1090, 254]
+      BlockRotation	      180
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Additional\nComponents/SPICE-Compatible\nComponents/Sources/DC Current Source"
+      SourceType	      "DC Current Source"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.additional.spice.sources.curr_dc"
+      ClassName		      "curr_dc"
+      SchemaVersion	      "1"
+      DC		      "50"
+      DC_unit		      "mA"
+      current_Log	      "off"
+      voltage_Log	      "off"
+      power_Log		      "off"
+      LocalVarNames	      "|current|voltage|power"
+      LocalVarDescs	      "|Current (A)|Voltage (V)|Power (W)"
+      LocalVarLogging	      "[0 0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CCR2"
+      SID		      "75"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [1050, 316, 1090, 344]
+      BlockRotation	      180
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Additional\nComponents/SPICE-Compatible\nComponents/Sources/DC Current Source"
+      SourceType	      "DC Current Source"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.additional.spice.sources.curr_dc"
+      ClassName		      "curr_dc"
+      SchemaVersion	      "1"
+      DC		      "30"
+      DC_unit		      "mA"
+      current_Log	      "off"
+      voltage_Log	      "off"
+      power_Log		      "off"
+      LocalVarNames	      "|current|voltage|power"
+      LocalVarDescs	      "|Current (A)|Voltage (V)|Power (W)"
+      LocalVarLogging	      "[0 0 0]"
+    }
+    Block {
+      BlockType		      Clock
+      Name		      "Clock"
+      SID		      "142"
+      Position		      [755, 685, 775, 705]
+      Decimation	      "10"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Current Sensor"
+      SID		      "61"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1270, 110, 1310, 150]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sensors/Current Sensor"
+      SourceType	      "Current Sensor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.sensors.current"
+      ClassName		      "current"
+      SchemaVersion	      "1"
+      i1_Log		      "off"
+      v1_Log		      "off"
+      LocalVarNames	      "|i1|v1"
+      LocalVarDescs	      "|i1|v1"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Current Sensor1"
+      SID		      "65"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1320, 575, 1360, 615]
+      BlockRotation	      180
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sensors/Current Sensor"
+      SourceType	      "Current Sensor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.sensors.current"
+      ClassName		      "current"
+      SchemaVersion	      "1"
+      i1_Log		      "off"
+      v1_Log		      "off"
+      LocalVarNames	      "|i1|v1"
+      LocalVarDescs	      "|i1|v1"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "D1"
+      SID		      "33"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [325, 179, 360, 201]
+      BackgroundColor	      "green"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Diode"
+      SourceType	      "Diode"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.pwl_diode"
+      ClassName		      "pwl_diode"
+      SchemaVersion	      "1"
+      Vf		      "0.68"
+      Vf_unit		      "V"
+      Ron		      "0.3"
+      Ron_unit		      "Ohm"
+      Goff		      "1e-8"
+      Goff_unit		      "1/Ohm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "D2"
+      SID		      "35"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [335, 260, 370, 280]
+      BackgroundColor	      "green"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Diode"
+      SourceType	      "Diode"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.pwl_diode"
+      ClassName		      "pwl_diode"
+      SchemaVersion	      "1"
+      Vf		      "0.68"
+      Vf_unit		      "V"
+      Ron		      "0.3"
+      Ron_unit		      "Ohm"
+      Goff		      "1e-8"
+      Goff_unit		      "1/Ohm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "D3"
+      SID		      "34"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [395, 180, 430, 200]
+      BackgroundColor	      "green"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Diode"
+      SourceType	      "Diode"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.pwl_diode"
+      ClassName		      "pwl_diode"
+      SchemaVersion	      "1"
+      Vf		      "0.68"
+      Vf_unit		      "V"
+      Ron		      "0.3"
+      Ron_unit		      "Ohm"
+      Goff		      "1e-8"
+      Goff_unit		      "1/Ohm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "D4"
+      SID		      "36"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [390, 260, 425, 280]
+      BackgroundColor	      "green"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Diode"
+      SourceType	      "Diode"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.pwl_diode"
+      ClassName		      "pwl_diode"
+      SchemaVersion	      "1"
+      Vf		      "0.68"
+      Vf_unit		      "V"
+      Ron		      "0.3"
+      Ron_unit		      "Ohm"
+      Goff		      "1e-8"
+      Goff_unit		      "1/Ohm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "D5"
+      SID		      "26"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [1310, 361, 1350, 389]
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Diode"
+      SourceType	      "Diode"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.pwl_diode"
+      ClassName		      "pwl_diode"
+      SchemaVersion	      "1"
+      Vf		      "0.6"
+      Vf_unit		      "V"
+      Ron		      "0.3"
+      Ron_unit		      "Ohm"
+      Goff		      "1e-8"
+      Goff_unit		      "1/Ohm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion"
+      SID		      "152"
+      Position		      [155, 678, 230, 712]
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion1"
+      SID		      "153"
+      Position		      [830, 63, 905, 97]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion2"
+      SID		      "154"
+      Position		      [695, 158, 770, 192]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion3"
+      SID		      "155"
+      Position		      [805, 103, 880, 137]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion4"
+      SID		      "156"
+      Position		      [580, 258, 655, 292]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion5"
+      SID		      "157"
+      Position		      [830, 588, 905, 622]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion6"
+      SID		      "158"
+      Position		      [390, 88, 465, 122]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Diode1"
+      SID		      "138"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [221, 150, 249, 190]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Semiconductor\nDevices/Diode"
+      SourceType	      "Diode"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.semiconductors.diode"
+      ClassName		      "diode"
+      SchemaVersion	      "1"
+      ModelType		      "2"
+      ModelType_unit	      "1"
+      Vf		      "0.68"
+      Vf_unit		      "V"
+      Ron		      "0.3"
+      Ron_unit		      "Ohm"
+      Goff		      "1e-8"
+      Goff_unit		      "S"
+      Rz		      "0.01"
+      Rz_unit		      "Ohm"
+      Vz		      "150"
+      Vz_unit		      "V"
+      C_PWL		      "5"
+      C_PWL_unit	      "pF"
+      prmExp		      "1"
+      prmExp_unit	      "1"
+      I12		      "[ 0.0137 0.545 ]"
+      I12_unit		      "A"
+      V12		      "[ 0.6 0.7 ]"
+      V12_unit		      "V"
+      I1		      "0.0137"
+      I1_unit		      "A"
+      V1		      "0.6"
+      V1_unit		      "V"
+      RS		      "0.01"
+      RS_unit		      "Ohm"
+      IS		      "1e-12"
+      IS_unit		      "A"
+      Tmeas		      "25"
+      Tmeas_unit	      "C"
+      ec		      "1"
+      ec_unit		      "1"
+      BV		      "Inf"
+      BV_unit		      "V"
+      C_param		      "1"
+      C_param_unit	      "1"
+      CJ0		      "5"
+      CJ0_unit		      "pF"
+      VJ		      "1"
+      VJ_unit		      "V"
+      Mgrad		      "0.5"
+      Mgrad_unit	      "1"
+      Vvec		      "[ 0.1 10 100 ]"
+      Vvec_unit		      "V"
+      Cvec		      "[ 3.5 1 0.4 ]"
+      Cvec_unit		      "pF"
+      FC		      "0.5"
+      FC_unit		      "1"
+      T_param		      "1"
+      T_param_unit	      "1"
+      IS_T2		      "1.25e-7"
+      IS_T2_unit	      "A"
+      I1_T2		      "0.245"
+      I1_T2_unit	      "A"
+      V1_T2		      "0.5"
+      V1_T2_unit	      "V"
+      Tmeas2		      "125"
+      Tmeas2_unit	      "C"
+      EG_param		      "1"
+      EG_param_unit	      "1"
+      EG		      "1.11"
+      EG_unit		      "eV"
+      XTI_param		      "1"
+      XTI_param_unit	      "1"
+      XTI		      "3"
+      XTI_unit		      "1"
+      dBVdT		      "0"
+      dBVdT_unit	      "V/K"
+      Tdevice		      "25"
+      Tdevice_unit	      "C"
+      LocalVarLogging	      "[]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Diode2"
+      SID		      "136"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [221, 225, 249, 265]
+      BlockRotation	      270
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Semiconductor\nDevices/Diode"
+      SourceType	      "Diode"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.semiconductors.diode"
+      ClassName		      "diode"
+      SchemaVersion	      "1"
+      ModelType		      "2"
+      ModelType_unit	      "1"
+      Vf		      "0.68"
+      Vf_unit		      "V"
+      Ron		      "0.3"
+      Ron_unit		      "Ohm"
+      Goff		      "1e-8"
+      Goff_unit		      "S"
+      Rz		      "0.01"
+      Rz_unit		      "Ohm"
+      Vz		      "150"
+      Vz_unit		      "V"
+      C_PWL		      "5"
+      C_PWL_unit	      "pF"
+      prmExp		      "1"
+      prmExp_unit	      "1"
+      I12		      "[ 0.0137 0.545 ]"
+      I12_unit		      "A"
+      V12		      "[ 0.6 0.7 ]"
+      V12_unit		      "V"
+      I1		      "0.0137"
+      I1_unit		      "A"
+      V1		      "0.6"
+      V1_unit		      "V"
+      RS		      "0.01"
+      RS_unit		      "Ohm"
+      IS		      "1e-12"
+      IS_unit		      "A"
+      Tmeas		      "25"
+      Tmeas_unit	      "C"
+      ec		      "1"
+      ec_unit		      "1"
+      BV		      "Inf"
+      BV_unit		      "V"
+      C_param		      "1"
+      C_param_unit	      "1"
+      CJ0		      "5"
+      CJ0_unit		      "pF"
+      VJ		      "1"
+      VJ_unit		      "V"
+      Mgrad		      "0.5"
+      Mgrad_unit	      "1"
+      Vvec		      "[ 0.1 10 100 ]"
+      Vvec_unit		      "V"
+      Cvec		      "[ 3.5 1 0.4 ]"
+      Cvec_unit		      "pF"
+      FC		      "0.5"
+      FC_unit		      "1"
+      T_param		      "1"
+      T_param_unit	      "1"
+      IS_T2		      "1.25e-7"
+      IS_T2_unit	      "A"
+      I1_T2		      "0.245"
+      I1_T2_unit	      "A"
+      V1_T2		      "0.5"
+      V1_T2_unit	      "V"
+      Tmeas2		      "125"
+      Tmeas2_unit	      "C"
+      EG_param		      "1"
+      EG_param_unit	      "1"
+      EG		      "1.11"
+      EG_unit		      "eV"
+      XTI_param		      "1"
+      XTI_param_unit	      "1"
+      XTI		      "3"
+      XTI_unit		      "1"
+      dBVdT		      "0"
+      dBVdT_unit	      "V/K"
+      Tdevice		      "25"
+      Tdevice_unit	      "C"
+      LocalVarLogging	      "[]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Electrical Reference"
+      SID		      "67"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [715, 560, 755, 600]
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+      SourceType	      "Electrical Reference"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.reference"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+      i_Log		      "off"
+      LocalVarNames	      "|i"
+      LocalVarDescs	      "|i"
+      LocalVarLogging	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "LED1"
+      SID		      "25"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [1272, 225, 1308, 250]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Sensors/Light-Emitting Diode"
+      SourceType	      "Light-Emitting Diode"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.sensors.led"
+      ClassName		      "led"
+      SchemaVersion	      "1"
+      Gain		      "0.5"
+      Gain_unit		      "W/A"
+      prmExp		      "1"
+      prmExp_unit	      "1"
+      I12		      "[ 170 175 ]"
+      I12_unit		      "mA"
+      V12		      "[ 19.9 20.05 ]"
+      V12_unit		      "V"
+      RS		      "0.1"
+      RS_unit		      "Ohm"
+      IS		      "5e-5"
+      IS_unit		      "A"
+      Tmeas		      "25"
+      Tmeas_unit	      "C"
+      ec		      "10"
+      ec_unit		      "1"
+      C_param		      "1"
+      C_param_unit	      "1"
+      CJ0		      "20"
+      CJ0_unit		      "pF"
+      VJ		      "1"
+      VJ_unit		      "V"
+      Mgrad		      "0.5"
+      Mgrad_unit	      "1"
+      Vvec		      "[ 0.1 10 100 ]"
+      Vvec_unit		      "V"
+      Cvec		      "[ 15 10 2 ]"
+      Cvec_unit		      "pF"
+      FC		      "0.5"
+      FC_unit		      "1"
+      T_param		      "1"
+      T_param_unit	      "1"
+      IS_T2		      "1.8e-4"
+      IS_T2_unit	      "A"
+      I1_T2		      "0.0034"
+      I1_T2_unit	      "A"
+      V1_T2		      "1.05"
+      V1_T2_unit	      "V"
+      Tmeas2		      "125"
+      Tmeas2_unit	      "C"
+      EG_param		      "1"
+      EG_param_unit	      "1"
+      EG		      "1.11"
+      EG_unit		      "eV"
+      XTI_param		      "1"
+      XTI_param_unit	      "1"
+      XTI		      "3"
+      XTI_unit		      "1"
+      Tdevice		      "25"
+      Tdevice_unit	      "C"
+      LocalVarLogging	      "[]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "LED2"
+      SID		      "105"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [1272, 255, 1308, 280]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Sensors/Light-Emitting Diode"
+      SourceType	      "Light-Emitting Diode"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.sensors.led"
+      ClassName		      "led"
+      SchemaVersion	      "1"
+      Gain		      "0.5"
+      Gain_unit		      "W/A"
+      prmExp		      "1"
+      prmExp_unit	      "1"
+      I12		      "[ 170 175 ]"
+      I12_unit		      "mA"
+      V12		      "[ 19.9 20.05 ]"
+      V12_unit		      "V"
+      RS		      "0.1"
+      RS_unit		      "Ohm"
+      IS		      "5e-5"
+      IS_unit		      "A"
+      Tmeas		      "25"
+      Tmeas_unit	      "C"
+      ec		      "10"
+      ec_unit		      "1"
+      C_param		      "1"
+      C_param_unit	      "1"
+      CJ0		      "20"
+      CJ0_unit		      "pF"
+      VJ		      "1"
+      VJ_unit		      "V"
+      Mgrad		      "0.5"
+      Mgrad_unit	      "1"
+      Vvec		      "[ 0.1 10 100 ]"
+      Vvec_unit		      "V"
+      Cvec		      "[ 15 10 2 ]"
+      Cvec_unit		      "pF"
+      FC		      "0.5"
+      FC_unit		      "1"
+      T_param		      "1"
+      T_param_unit	      "1"
+      IS_T2		      "1.8e-4"
+      IS_T2_unit	      "A"
+      I1_T2		      "0.0034"
+      I1_T2_unit	      "A"
+      V1_T2		      "1.05"
+      V1_T2_unit	      "V"
+      Tmeas2		      "125"
+      Tmeas2_unit	      "C"
+      EG_param		      "1"
+      EG_param_unit	      "1"
+      EG		      "1.11"
+      EG_unit		      "eV"
+      XTI_param		      "1"
+      XTI_param_unit	      "1"
+      XTI		      "3"
+      XTI_unit		      "1"
+      Tdevice		      "25"
+      Tdevice_unit	      "C"
+      LocalVarLogging	      "[]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "LED3"
+      SID		      "106"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [1372, 475, 1408, 500]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Sensors/Light-Emitting Diode"
+      SourceType	      "Light-Emitting Diode"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.sensors.led"
+      ClassName		      "led"
+      SchemaVersion	      "1"
+      Gain		      "0.5"
+      Gain_unit		      "W/A"
+      prmExp		      "1"
+      prmExp_unit	      "1"
+      I12		      "[ 170 175 ]"
+      I12_unit		      "mA"
+      V12		      "[ 19.9 20.05 ]"
+      V12_unit		      "V"
+      RS		      "0.1"
+      RS_unit		      "Ohm"
+      IS		      "5e-5"
+      IS_unit		      "A"
+      Tmeas		      "25"
+      Tmeas_unit	      "C"
+      ec		      "10"
+      ec_unit		      "1"
+      C_param		      "1"
+      C_param_unit	      "1"
+      CJ0		      "20"
+      CJ0_unit		      "pF"
+      VJ		      "1"
+      VJ_unit		      "V"
+      Mgrad		      "0.5"
+      Mgrad_unit	      "1"
+      Vvec		      "[ 0.1 10 100 ]"
+      Vvec_unit		      "V"
+      Cvec		      "[ 15 10 2 ]"
+      Cvec_unit		      "pF"
+      FC		      "0.5"
+      FC_unit		      "1"
+      T_param		      "1"
+      T_param_unit	      "1"
+      IS_T2		      "1.8e-4"
+      IS_T2_unit	      "A"
+      I1_T2		      "0.0034"
+      I1_T2_unit	      "A"
+      V1_T2		      "1.05"
+      V1_T2_unit	      "V"
+      Tmeas2		      "125"
+      Tmeas2_unit	      "C"
+      EG_param		      "1"
+      EG_param_unit	      "1"
+      EG		      "1.11"
+      EG_unit		      "eV"
+      XTI_param		      "1"
+      XTI_param_unit	      "1"
+      XTI		      "3"
+      XTI_unit		      "1"
+      Tdevice		      "25"
+      Tdevice_unit	      "C"
+      LocalVarLogging	      "[]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "LED4"
+      SID		      "107"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [1362, 410, 1398, 435]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Sensors/Light-Emitting Diode"
+      SourceType	      "Light-Emitting Diode"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.sensors.led"
+      ClassName		      "led"
+      SchemaVersion	      "1"
+      Gain		      "0.5"
+      Gain_unit		      "W/A"
+      prmExp		      "1"
+      prmExp_unit	      "1"
+      I12		      "[ 170 175 ]"
+      I12_unit		      "mA"
+      V12		      "[ 19.9 20.05 ]"
+      V12_unit		      "V"
+      RS		      "0.1"
+      RS_unit		      "Ohm"
+      IS		      "5e-5"
+      IS_unit		      "A"
+      Tmeas		      "25"
+      Tmeas_unit	      "C"
+      ec		      "10"
+      ec_unit		      "1"
+      C_param		      "1"
+      C_param_unit	      "1"
+      CJ0		      "20"
+      CJ0_unit		      "pF"
+      VJ		      "1"
+      VJ_unit		      "V"
+      Mgrad		      "0.5"
+      Mgrad_unit	      "1"
+      Vvec		      "[ 0.1 10 100 ]"
+      Vvec_unit		      "V"
+      Cvec		      "[ 15 10 2 ]"
+      Cvec_unit		      "pF"
+      FC		      "0.5"
+      FC_unit		      "1"
+      T_param		      "1"
+      T_param_unit	      "1"
+      IS_T2		      "1.8e-4"
+      IS_T2_unit	      "A"
+      I1_T2		      "0.0034"
+      I1_T2_unit	      "A"
+      V1_T2		      "1.05"
+      V1_T2_unit	      "V"
+      Tmeas2		      "125"
+      Tmeas2_unit	      "C"
+      EG_param		      "1"
+      EG_param_unit	      "1"
+      EG		      "1.11"
+      EG_unit		      "eV"
+      XTI_param		      "1"
+      XTI_param_unit	      "1"
+      XTI		      "3"
+      XTI_unit		      "1"
+      Tdevice		      "25"
+      Tdevice_unit	      "C"
+      LocalVarLogging	      "[]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter"
+      SID		      "68"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [155, 410, 185, 440]
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_output"
+      Unit		      "1"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter1"
+      SID		      "72"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [1035, 115, 1065, 145]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_output"
+      Unit		      "1"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter2"
+      SID		      "73"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [1110, 570, 1140, 600]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_output"
+      Unit		      "1"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter3"
+      SID		      "77"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [940, 70, 970, 100]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_output"
+      Unit		      "1"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter4"
+      SID		      "78"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [960, 150, 990, 180]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_output"
+      Unit		      "1"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter5"
+      SID		      "99"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [875, 170, 905, 200]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_output"
+      Unit		      "1"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter6"
+      SID		      "100"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [725, 255, 755, 285]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_output"
+      Unit		      "1"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter7"
+      SID		      "103"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [355, 440, 385, 470]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_output"
+      Unit		      "1"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter8"
+      SID		      "114"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [1480, 115, 1510, 145]
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      SubClassName	      "ps_output"
+      Unit		      "1"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Q1"
+      SID		      "22"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [760, 389, 790, 451]
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Semiconductor\nDevices/NPN Bipolar\nTransistor"
+      SourceType	      "NPN Bipolar\nTransistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.semiconductors.bjt_npn"
+      ClassName		      "bjt_npn"
+      SchemaVersion	      "1"
+      parameterization	      "1"
+      parameterization_unit   "1"
+      prmDatasheet	      "1"
+      prmDatasheet_unit	      "1"
+      prmEquCoeff	      "1"
+      prmEquCoeff_unit	      "1"
+      BF		      "100"
+      BF_unit		      "1"
+      IS		      "200"
+      IS_unit		      "mA"
+      VAF		      "40"
+      VAF_unit		      "V"
+      hfe		      "100"
+      hfe_unit		      "1"
+      hoe		      "5e-5"
+      hoe_unit		      "1/Ohm"
+      Ic_h		      "1"
+      Ic_h_unit		      "mA"
+      Vce_h		      "5"
+      Vce_h_unit	      "V"
+      V1		      "0.55"
+      V1_unit		      "V"
+      I1		      "0.5"
+      I1_unit		      "mA"
+      BR		      "1"
+      BR_unit		      "1"
+      Tmeas		      "25"
+      Tmeas_unit	      "C"
+      RC		      "0.01"
+      RC_unit		      "Ohm"
+      RE		      "1e-4"
+      RE_unit		      "Ohm"
+      RB		      "1"
+      RB_unit		      "Ohm"
+      C_BC		      "5"
+      C_BC_unit		      "pF"
+      C_BE		      "5"
+      C_BE_unit		      "pF"
+      TF		      "0"
+      TF_unit		      "us"
+      TR		      "0"
+      TR_unit		      "us"
+      hfe_T2		      "125"
+      hfe_T2_unit	      "1"
+      XTB		      "0"
+      XTB_unit		      "1"
+      V1_T2		      "0.45"
+      V1_T2_unit	      "V"
+      I1_T2		      "0.5"
+      I1_T2_unit	      "mA"
+      Tmeas2		      "125"
+      Tmeas2_unit	      "C"
+      EG		      "1.11"
+      EG_unit		      "eV"
+      XTI		      "3"
+      XTI_unit		      "1"
+      TdeviceDatasheet	      "25"
+      TdeviceDatasheet_unit   "C"
+      TdeviceEquCoeff	      "25"
+      TdeviceEquCoeff_unit    "C"
+      LocalVarLogging	      "[]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Q2"
+      SID		      "23"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [975, 285, 1005, 345]
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Semiconductor\nDevices/PNP Bipolar\nTransistor"
+      SourceType	      "PNP Bipolar\nTransistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.semiconductors.bjt_pnp"
+      ClassName		      "bjt_pnp"
+      SchemaVersion	      "1"
+      parameterization	      "1"
+      parameterization_unit   "1"
+      prmDatasheet	      "1"
+      prmDatasheet_unit	      "1"
+      prmEquCoeff	      "1"
+      prmEquCoeff_unit	      "1"
+      BF		      "100"
+      BF_unit		      "1"
+      IS		      "500"
+      IS_unit		      "mA"
+      VAF		      "150"
+      VAF_unit		      "V"
+      hfe		      "100"
+      hfe_unit		      "1"
+      hoe		      "5e-5"
+      hoe_unit		      "1/Ohm"
+      Ic_h		      "-1"
+      Ic_h_unit		      "mA"
+      Vce_h		      "-5"
+      Vce_h_unit	      "V"
+      V1		      "-0.55"
+      V1_unit		      "V"
+      I1		      "-0.5"
+      I1_unit		      "mA"
+      BR		      "1"
+      BR_unit		      "1"
+      Tmeas		      "25"
+      Tmeas_unit	      "C"
+      RC		      "0.01"
+      RC_unit		      "Ohm"
+      RE		      "1e-4"
+      RE_unit		      "Ohm"
+      RB		      "1"
+      RB_unit		      "Ohm"
+      C_BC		      "5"
+      C_BC_unit		      "pF"
+      C_BE		      "5"
+      C_BE_unit		      "pF"
+      TF		      "0"
+      TF_unit		      "us"
+      TR		      "0"
+      TR_unit		      "us"
+      hfe_T2		      "125"
+      hfe_T2_unit	      "1"
+      XTB		      "0"
+      XTB_unit		      "1"
+      V1_T2		      "-0.45"
+      V1_T2_unit	      "V"
+      I1_T2		      "-0.5"
+      I1_T2_unit	      "mA"
+      Tmeas2		      "125"
+      Tmeas2_unit	      "C"
+      EG		      "1.11"
+      EG_unit		      "eV"
+      XTI		      "3"
+      XTI_unit		      "1"
+      TdeviceDatasheet	      "25"
+      TdeviceDatasheet_unit   "C"
+      TdeviceEquCoeff	      "25"
+      TdeviceEquCoeff_unit    "C"
+      LocalVarLogging	      "[]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Q3"
+      SID		      "46"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1140, 415, 1170, 475]
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Semiconductor\nDevices/NPN Bipolar\nTransistor"
+      SourceType	      "NPN Bipolar\nTransistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.semiconductors.bjt_npn"
+      ClassName		      "bjt_npn"
+      SchemaVersion	      "1"
+      parameterization	      "1"
+      parameterization_unit   "1"
+      prmDatasheet	      "1"
+      prmDatasheet_unit	      "1"
+      prmEquCoeff	      "1"
+      prmEquCoeff_unit	      "1"
+      BF		      "100"
+      BF_unit		      "1"
+      IS		      "100"
+      IS_unit		      "mA"
+      VAF		      "350"
+      VAF_unit		      "V"
+      hfe		      "100"
+      hfe_unit		      "1"
+      hoe		      "5e-5"
+      hoe_unit		      "1/Ohm"
+      Ic_h		      "1"
+      Ic_h_unit		      "mA"
+      Vce_h		      "5"
+      Vce_h_unit	      "V"
+      V1		      "0.55"
+      V1_unit		      "V"
+      I1		      "0.5"
+      I1_unit		      "mA"
+      BR		      "1"
+      BR_unit		      "1"
+      Tmeas		      "25"
+      Tmeas_unit	      "C"
+      RC		      "0.01"
+      RC_unit		      "Ohm"
+      RE		      "1e-4"
+      RE_unit		      "Ohm"
+      RB		      "1"
+      RB_unit		      "Ohm"
+      C_BC		      "5"
+      C_BC_unit		      "pF"
+      C_BE		      "5"
+      C_BE_unit		      "pF"
+      TF		      "0"
+      TF_unit		      "us"
+      TR		      "0"
+      TR_unit		      "us"
+      hfe_T2		      "125"
+      hfe_T2_unit	      "1"
+      XTB		      "0"
+      XTB_unit		      "1"
+      V1_T2		      "0.45"
+      V1_T2_unit	      "V"
+      I1_T2		      "0.5"
+      I1_T2_unit	      "mA"
+      Tmeas2		      "125"
+      Tmeas2_unit	      "C"
+      EG		      "1.11"
+      EG_unit		      "eV"
+      XTI		      "3"
+      XTI_unit		      "1"
+      TdeviceDatasheet	      "25"
+      TdeviceDatasheet_unit   "C"
+      TdeviceEquCoeff	      "25"
+      TdeviceEquCoeff_unit    "C"
+      LocalVarLogging	      "[]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Q4"
+      SID		      "47"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1240, 430, 1270, 490]
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Semiconductor\nDevices/NPN Bipolar\nTransistor"
+      SourceType	      "NPN Bipolar\nTransistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.semiconductors.bjt_npn"
+      ClassName		      "bjt_npn"
+      SchemaVersion	      "1"
+      parameterization	      "1"
+      parameterization_unit   "1"
+      prmDatasheet	      "1"
+      prmDatasheet_unit	      "1"
+      prmEquCoeff	      "1"
+      prmEquCoeff_unit	      "1"
+      BF		      "100"
+      BF_unit		      "1"
+      IS		      "600"
+      IS_unit		      "mA"
+      VAF		      "140"
+      VAF_unit		      "V"
+      hfe		      "100"
+      hfe_unit		      "1"
+      hoe		      "5e-5"
+      hoe_unit		      "1/Ohm"
+      Ic_h		      "1"
+      Ic_h_unit		      "mA"
+      Vce_h		      "5"
+      Vce_h_unit	      "V"
+      V1		      "0.55"
+      V1_unit		      "V"
+      I1		      "0.5"
+      I1_unit		      "mA"
+      BR		      "1"
+      BR_unit		      "1"
+      Tmeas		      "25"
+      Tmeas_unit	      "C"
+      RC		      "0.01"
+      RC_unit		      "Ohm"
+      RE		      "1e-4"
+      RE_unit		      "Ohm"
+      RB		      "1"
+      RB_unit		      "Ohm"
+      C_BC		      "5"
+      C_BC_unit		      "pF"
+      C_BE		      "5"
+      C_BE_unit		      "pF"
+      TF		      "0"
+      TF_unit		      "us"
+      TR		      "0"
+      TR_unit		      "us"
+      hfe_T2		      "125"
+      hfe_T2_unit	      "1"
+      XTB		      "0"
+      XTB_unit		      "1"
+      V1_T2		      "0.45"
+      V1_T2_unit	      "V"
+      I1_T2		      "0.5"
+      I1_T2_unit	      "mA"
+      Tmeas2		      "125"
+      Tmeas2_unit	      "C"
+      EG		      "1.11"
+      EG_unit		      "eV"
+      XTI		      "3"
+      XTI_unit		      "1"
+      TdeviceDatasheet	      "25"
+      TdeviceDatasheet_unit   "C"
+      TdeviceEquCoeff	      "25"
+      TdeviceEquCoeff_unit    "C"
+      LocalVarLogging	      "[]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Q5"
+      SID		      "49"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1320, 285, 1350, 345]
+      LibraryVersion	      "1.1"
+      SourceBlock	      "elec_lib/Semiconductor\nDevices/PNP Bipolar\nTransistor"
+      SourceType	      "PNP Bipolar\nTransistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "elec.semiconductors.bjt_pnp"
+      ClassName		      "bjt_pnp"
+      SchemaVersion	      "1"
+      parameterization	      "1"
+      parameterization_unit   "1"
+      prmDatasheet	      "1"
+      prmDatasheet_unit	      "1"
+      prmEquCoeff	      "1"
+      prmEquCoeff_unit	      "1"
+      BF		      "100"
+      BF_unit		      "1"
+      IS		      "500"
+      IS_unit		      "mA"
+      VAF		      "150"
+      VAF_unit		      "V"
+      hfe		      "100"
+      hfe_unit		      "1"
+      hoe		      "5e-5"
+      hoe_unit		      "1/Ohm"
+      Ic_h		      "-1"
+      Ic_h_unit		      "mA"
+      Vce_h		      "-5"
+      Vce_h_unit	      "V"
+      V1		      "-0.55"
+      V1_unit		      "V"
+      I1		      "-0.5"
+      I1_unit		      "mA"
+      BR		      "1"
+      BR_unit		      "1"
+      Tmeas		      "25"
+      Tmeas_unit	      "C"
+      RC		      "0.01"
+      RC_unit		      "Ohm"
+      RE		      "1e-4"
+      RE_unit		      "Ohm"
+      RB		      "1"
+      RB_unit		      "Ohm"
+      C_BC		      "5"
+      C_BC_unit		      "pF"
+      C_BE		      "5"
+      C_BE_unit		      "pF"
+      TF		      "0"
+      TF_unit		      "us"
+      TR		      "0"
+      TR_unit		      "us"
+      hfe_T2		      "125"
+      hfe_T2_unit	      "1"
+      XTB		      "0"
+      XTB_unit		      "1"
+      V1_T2		      "-0.45"
+      V1_T2_unit	      "V"
+      I1_T2		      "-0.5"
+      I1_T2_unit	      "mA"
+      Tmeas2		      "125"
+      Tmeas2_unit	      "C"
+      EG		      "1.11"
+      EG_unit		      "eV"
+      XTI		      "3"
+      XTI_unit		      "1"
+      TdeviceDatasheet	      "25"
+      TdeviceDatasheet_unit   "C"
+      TdeviceEquCoeff	      "25"
+      TdeviceEquCoeff_unit    "C"
+      LocalVarLogging	      "[]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "R1"
+      SID		      "56"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [651, 310, 679, 350]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "1"
+      R_unit		      "MOhm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "R10"
+      SID		      "159"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [1211, 200, 1239, 240]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "10"
+      R_unit		      "Ohm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "R2"
+      SID		      "30"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [654, 445, 676, 470]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "5.6"
+      R_unit		      "kOhm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "R3"
+      SID		      "31"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [792, 270, 818, 300]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "301"
+      R_unit		      "kOhm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "R4"
+      SID		      "27"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [891, 270, 919, 310]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "590"
+      R_unit		      "Ohm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "R5"
+      SID		      "42"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [891, 465, 919, 505]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "100"
+      R_unit		      "kOhm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "R6"
+      SID		      "43"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [1197, 270, 1223, 300]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "2.2"
+      R_unit		      "kOhm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "R7"
+      SID		      "44"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [1197, 345, 1223, 375]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "27"
+      R_unit		      "kOhm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "R8"
+      SID		      "45"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [1195, 385, 1225, 415]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "27"
+      R_unit		      "kOhm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "R9"
+      SID		      "55"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [1195, 485, 1225, 515]
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "2.2"
+      R_unit		      "kOhm"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "SNIMA NAPONE NA CCR1 I CCR1"
+      SID		      "104"
+      Ports		      [2]
+      Position		      [310, 361, 340, 394]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      Floating		      off
+      Location		      [1, 49, 1367, 727]
+      Open		      off
+      NumInputPorts	      "2"
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+	axes2			"%<SignalLabel>"
+      }
+      YMin		      "-5~-5"
+      YMax		      "5~5"
+      SaveName		      "ScopeData3"
+      DataFormat	      "StructureWithTime"
+      LimitDataPoints	      off
+      SampleTime	      "0"
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "SNIMA NAPONE NA ULAZU I NA STRINGOVIMA DIODA1"
+      SID		      "116"
+      Ports		      [1]
+      Position		      [1565, 114, 1595, 146]
+      Floating		      off
+      Location		      [6, 49, 1372, 727]
+      Open		      off
+      NumInputPorts	      "1"
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+      }
+      YMin		      "0.00015"
+      YMax		      "0.00045"
+      SaveName		      "ScopeData4"
+      DataFormat	      "StructureWithTime"
+      LimitDataPoints	      off
+      SampleTime	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Solver\nConfiguration"
+      SID		      "66"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [345, 589, 390, 621]
+      LibraryVersion	      "1.1"
+      SourceBlock	      "nesl_utility/Solver\nConfiguration"
+      SourceType	      "Solver\nConfiguration"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      PhysicalDomain	      "network_engine_domain"
+      LeftPortType	      "input"
+      RightPortType	      "generic"
+      SubClassName	      "solver"
+      Accelerate	      off
+      Profile		      off
+      ResidualTolerance	      "1e-9"
+      MaxNonlinIter	      "3"
+      MaxModeIter	      "2"
+      DoFixedCost	      off
+      UseLocalSampling	      off
+      DoDC		      off
+      LinearAlgebra	      "Sparse"
+      LocalSolverSampleTime   ".001"
+      LocalSolverChoice	      "NE_BACKWARD_EULER_ADVANCER"
+      UseLocalSolver	      off
+    }
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "To Workspace"
+      SID		      "141"
+      Ports		      [1]
+      Position		      [855, 680, 915, 710]
+      VariableName	      "t"
+      MaxDataPoints	      "inf"
+      SampleTime	      "-1"
+      SaveFormat	      "Array"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "To Workspace1"
+      SID		      "143"
+      Ports		      [1]
+      Position		      [365, 680, 425, 710]
+      VariableName	      "Uul"
+      MaxDataPoints	      "inf"
+      SampleTime	      "-1"
+      SaveFormat	      "Array"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "To Workspace2"
+      SID		      "144"
+      Ports		      [1]
+      Position		      [255, 570, 315, 600]
+      VariableName	      "Ustring1"
+      MaxDataPoints	      "inf"
+      SampleTime	      "-1"
+      SaveFormat	      "Array"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "To Workspace3"
+      SID		      "145"
+      Ports		      [1]
+      Position		      [395, 560, 455, 590]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      VariableName	      "Ustring2"
+      MaxDataPoints	      "inf"
+      SampleTime	      "-1"
+      SaveFormat	      "Array"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "To Workspace4"
+      SID		      "146"
+      Ports		      [1]
+      Position		      [695, 15, 755, 45]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      VariableName	      "Astring1"
+      MaxDataPoints	      "inf"
+      SampleTime	      "-1"
+      SaveFormat	      "Array"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "To Workspace5"
+      SID		      "147"
+      Ports		      [1]
+      Position		      [715, 105, 775, 135]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      VariableName	      "Astring2"
+      MaxDataPoints	      "inf"
+      SampleTime	      "-1"
+      SaveFormat	      "Array"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "To Workspace6"
+      SID		      "148"
+      Ports		      [1]
+      Position		      [505, 135, 565, 165]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      VariableName	      "VCCR1"
+      MaxDataPoints	      "inf"
+      SampleTime	      "-1"
+      SaveFormat	      "Array"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "To Workspace7"
+      SID		      "149"
+      Ports		      [1]
+      Position		      [505, 170, 565, 200]
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      VariableName	      "VCCR2"
+      MaxDataPoints	      "inf"
+      SampleTime	      "-1"
+      SaveFormat	      "Array"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Vin"
+      SID		      "50"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [101, 240, 129, 280]
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sources/AC Voltage Source"
+      SourceType	      "AC Voltage Source"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.sources.ac_voltage"
+      ClassName		      "ac_voltage"
+      SchemaVersion	      "1"
+      amp		      "169.3"
+      amp_unit		      "V"
+      shift		      "0"
+      shift_unit	      "rad"
+      omega		      "60"
+      omega_unit	      "Hz"
+      i_Log		      "off"
+      v_Log		      "off"
+      LocalVarNames	      "|i|v"
+      LocalVarDescs	      "|i|v"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Voltage Sensor"
+      SID		      "62"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [135, 245, 175, 285]
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sensors/Voltage Sensor"
+      SourceType	      "Voltage Sensor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.sensors.voltage"
+      ClassName		      "voltage"
+      SchemaVersion	      "1"
+      i1_Log		      "off"
+      v1_Log		      "off"
+      LocalVarNames	      "|i1|v1"
+      LocalVarDescs	      "|i1|v1"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Voltage Sensor1"
+      SID		      "70"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1350, 210, 1390, 250]
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sensors/Voltage Sensor"
+      SourceType	      "Voltage Sensor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.sensors.voltage"
+      ClassName		      "voltage"
+      SchemaVersion	      "1"
+      i1_Log		      "off"
+      v1_Log		      "off"
+      LocalVarNames	      "|i1|v1"
+      LocalVarDescs	      "|i1|v1"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Voltage Sensor2"
+      SID		      "71"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1300, 440, 1340, 480]
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sensors/Voltage Sensor"
+      SourceType	      "Voltage Sensor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.sensors.voltage"
+      ClassName		      "voltage"
+      SchemaVersion	      "1"
+      i1_Log		      "off"
+      v1_Log		      "off"
+      LocalVarNames	      "|i1|v1"
+      LocalVarDescs	      "|i1|v1"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Voltage Sensor3"
+      SID		      "96"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1050, 363, 1090, 407]
+      BlockRotation	      180
+      BlockMirror	      on
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sensors/Voltage Sensor"
+      SourceType	      "Voltage Sensor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.sensors.voltage"
+      ClassName		      "voltage"
+      SchemaVersion	      "1"
+      i1_Log		      "off"
+      v1_Log		      "off"
+      LocalVarNames	      "|i1|v1"
+      LocalVarDescs	      "|i1|v1"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Voltage Sensor4"
+      SID		      "98"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1050, 263, 1090, 307]
+      BlockRotation	      180
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sensors/Voltage Sensor"
+      SourceType	      "Voltage Sensor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.sensors.voltage"
+      ClassName		      "voltage"
+      SchemaVersion	      "1"
+      i1_Log		      "off"
+      v1_Log		      "off"
+      LocalVarNames	      "|i1|v1"
+      LocalVarDescs	      "|i1|v1"
+      LocalVarLogging	      "[0 0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Voltage Sensor5"
+      SID		      "102"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [405, 360, 445, 400]
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "1.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sensors/Voltage Sensor"
+      SourceType	      "Voltage Sensor"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      GeneratePreprocessorConditionals off
+      ComponentPath	      "foundation.electrical.sensors.voltage"
+      ClassName		      "voltage"
+      SchemaVersion	      "1"
+      i1_Log		      "off"
+      v1_Log		      "off"
+      LocalVarNames	      "|i1|v1"
+      LocalVarDescs	      "|i1|v1"
+      LocalVarLogging	      "[0 0]"
+    }
+    Line {
+      LineType		      "Connection"
+      Points		      [115, 315; 0, 20; 115, 0]
+      Branch {
+	ConnectType		"SRC_SRC"
+	DstBlock		"Vin"
+	DstPort			RConn1
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Voltage Sensor"
+	SrcPort			RConn2
+	Points			[0, 15; -50, 0]
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[150, 0; 0, -65]
+	Branch {
+	  ConnectType		  "DEST_DEST"
+	  SrcBlock		  "D2"
+	  SrcPort		  RConn1
+	  Points		  [-5, 0]
+	}
+	Branch {
+	  ConnectType		  "DEST_SRC"
+	  DstBlock		  "D4"
+	  DstPort		  LConn1
+	}
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[5, 0]
+	DstBlock		"Diode2"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      Points		      [380, 190; 0, -55; -145, 0]
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"D1"
+	SrcPort			RConn1
+	Points			[5, 0]
+      }
+      Branch {
+	ConnectType		"SRC_SRC"
+	DstBlock		"D3"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Labels			[2, 0]
+	Points			[-120, 0; 0, 85]
+	Branch {
+	  ConnectType		  "DEST_DEST"
+	  SrcBlock		  "Vin"
+	  SrcPort		  LConn1
+	  Points		  [0, -5]
+	}
+	Branch {
+	  ConnectType		  "DEST_SRC"
+	  Points		  [40, 0]
+	  DstBlock		  "Voltage Sensor"
+	  DstPort		  LConn1
+	}
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Diode1"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      Points		      [665, 530; -80, 0; -15, 0]
+      Branch {
+	ConnectType		"SRC_DEST"
+	Points			[710, 530; -45, 0]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "C2"
+	  SrcPort		  RConn1
+	  Points		  [0, 45]
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  Points		  [735, 530; -25, 0]
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    Points		    [800, 530; -65, 0]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      Points		      [905, 525; 0, 5; -105, 0]
+	      Branch {
+		ConnectType		"SRC_DEST"
+		Points			[1205, 530; -300, 0; 0, -5]
+		Branch {
+		  ConnectType		  "SRC_DEST"
+		  Points		  [1285, 515; 0, 15; -80, 0]
+		  Branch {
+		    ConnectType		    "SRC_DEST"
+		    SrcBlock		    "Q4"
+		    SrcPort		    RConn2
+		    Points		    [0, 40]
+		  }
+		  Branch {
+		    ConnectType		    "SRC_DEST"
+		    SrcBlock		    "Current Sensor1"
+		    SrcPort		    RConn2
+		    Points		    [0, -70; -20, 0]
+		  }
+		}
+		Branch {
+		  ConnectType		  "SRC_DEST"
+		  SrcBlock		  "R9"
+		  SrcPort		  RConn1
+		  Points		  [-5, 0]
+		}
+	      }
+	      Branch {
+		ConnectType		"SRC_DEST"
+		SrcBlock		"R5"
+		SrcPort			RConn1
+		Points			[0, 5]
+	      }
+	    }
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "Q1"
+	      SrcPort		      RConn2
+	      Points		      [0, 95; -5, 0]
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    DstBlock		    "Electrical Reference"
+	    DstPort		    LConn1
+	  }
+	}
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"R2"
+	SrcPort			RConn1
+	Points			[0, 45]
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[530, 530; 35, 0; 5, 0]
+	Branch {
+	  ConnectType		  "SRC_SRC"
+	  DstBlock		  "C1"
+	  DstPort		  RConn1
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  Points		  [435, 530; 95, 0]
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    Points		    [310, 255; -10, 0; 0, 275; 135, 0]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "D1"
+	      SrcPort		      LConn1
+	      Points		      [0, 65]
+	    }
+	    Branch {
+	      ConnectType	      "SRC_SRC"
+	      Points		      [0, 15]
+	      DstBlock		      "D2"
+	      DstPort		      LConn1
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "Voltage Sensor5"
+	    SrcPort		    RConn2
+	    Points		    [0, 115]
+	  }
+	}
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Solver\nConfiguration"
+	SrcPort			RConn1
+	Points			[0, 20; 165, 0; 0, -95]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "R3"
+      SrcPort		      RConn1
+      Points		      [0, 50]
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Q1"
+	DstPort			RConn1
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[125, 0; 0, 80]
+	DstBlock		"Q3"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "R4"
+      SrcPort		      RConn1
+      Points		      [0, -15]
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"R5"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[0, 5]
+	DstBlock		"Q2"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Q2"
+      SrcPort		      RConn2
+      Points		      [10, 0]
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"CCR2"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Voltage Sensor3"
+	SrcPort			RConn2
+	Points			[10, 0; 0, -25; -85, 0; 0, -20]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "CCR2"
+      SrcPort		      RConn1
+      Points		      [5, 0]
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[5, 0; 0, -55]
+	Branch {
+	  ConnectType		  "DEST_DEST"
+	  Points		  [1115, 245; 0, 30]
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    Points		    [0, -45; 95, 0]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      Points		      [0, -140; 75, 0]
+	      Branch {
+		ConnectType		"DEST_SRC"
+		Points			[80, 0]
+		DstBlock		"Q5"
+		DstPort			RConn1
+	      }
+	      Branch {
+		ConnectType		"DEST_SRC"
+		Points			[0, 35]
+		DstBlock		"Current Sensor"
+		DstPort			LConn1
+	      }
+	    }
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      DstBlock		      "R6"
+	      DstPort		      LConn1
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "CCR1"
+	    SrcPort		    RConn1
+	    Points		    [10, 0; 0, 5]
+	  }
+	}
+	Branch {
+	  ConnectType		  "DEST_DEST"
+	  SrcBlock		  "Voltage Sensor4"
+	  SrcPort		  RConn2
+	  Points		  [10, 0]
+	}
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[0, 35; -75, 0]
+	DstBlock		"Voltage Sensor3"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      Points		      [1210, 315; 95, 0]
+      DstBlock		      "Q5"
+      DstPort		      LConn1
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"R6"
+	SrcPort			RConn1
+	Points			[0, 0]
+      }
+      Branch {
+	ConnectType		"SRC_SRC"
+	DstBlock		"R7"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "R7"
+      SrcPort		      RConn1
+      DstBlock		      "R8"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "R9"
+      SrcPort		      LConn1
+      Points		      [0, -10; -5, 0]
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Q3"
+	DstPort			RConn2
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Q4"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      Points		      [665, 410; 45, 0]
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"R1"
+	SrcPort			RConn1
+	Points			[0, 45]
+      }
+      Branch {
+	ConnectType		"SRC_SRC"
+	DstBlock		"R2"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"C2"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[35, 0]
+	DstBlock		"Q1"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "LED1"
+      SrcPort		      RConn1
+      Points		      [-10, 0]
+      DstBlock		      "LED2"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "LED2"
+      SrcPort		      RConn1
+      Points		      [-5, 0; 0, 5]
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[0, 75]
+	Branch {
+	  ConnectType		  "DEST_SRC"
+	  DstBlock		  "Q4"
+	  DstPort		  RConn1
+	}
+	Branch {
+	  ConnectType		  "DEST_SRC"
+	  DstBlock		  "D5"
+	  DstPort		  LConn1
+	}
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	Labels			[2, 0]
+	SrcBlock		"Voltage Sensor1"
+	SrcPort			RConn2
+	Points			[0, 35; -95, 0]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "R8"
+      SrcPort		      RConn1
+      DstBlock		      "Q3"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      Points		      [1370, 385; 0, 10]
+      DstBlock		      "LED4"
+      DstPort		      LConn2
+      Branch {
+	ConnectType		"SRC_DEST"
+	Points			[1380, 375; -10, 0; 0, 10]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Q5"
+	  SrcPort		  RConn2
+	  Points		  [15, 0; 0, 45]
+	}
+	Branch {
+	  ConnectType		  "SRC_SRC"
+	  DstBlock		  "D5"
+	  DstPort		  RConn1
+	}
+      }
+      Branch {
+	ConnectType		"SRC_SRC"
+	Points			[-50, 0]
+	DstBlock		"Voltage Sensor2"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      Points		      [670, 205; -90, 0; -45, 0]
+      Branch {
+	ConnectType		"SRC_DEST"
+	Points			[805, 205; -135, 0]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  Points		  [905, 255; 0, -50; -100, 0]
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    Points		    [1020, 205; -115, 0; 0, 50]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      Points		      [1035, 235; 0, -30; -15, 0]
+	      Branch {
+		ConnectType		"SRC_DEST"
+		SrcBlock		"CCR1"
+		SrcPort			LConn1
+		Points			[0, -5]
+	      }
+	      Branch {
+		ConnectType		"SRC_SRC"
+		DstBlock		"Voltage Sensor4"
+		DstPort			LConn1
+	      }
+	    }
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "Q2"
+	      SrcPort		      RConn1
+	      Points		      [0, -95]
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    DstBlock		    "R4"
+	    DstPort		    LConn1
+	  }
+	}
+	Branch {
+	  ConnectType		  "SRC_SRC"
+	  DstBlock		  "R3"
+	  DstPort		  LConn1
+	}
+      }
+      Branch {
+	ConnectType		"SRC_SRC"
+	Points			[-5, 0]
+	DstBlock		"R1"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[-5, 0]
+	DstBlock		"C1"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[505, 205; 30, 0]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  Points		  [460, 205; 45, 0]
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "D4"
+	    SrcPort		    RConn1
+	    Points		    [20, 0; 0, -65]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "D3"
+	    SrcPort		    RConn1
+	    Points		    [15, 0; 0, 15]
+	  }
+	}
+	Branch {
+	  ConnectType		  "SRC_SRC"
+	  Points		  [-15, 0; 0, 140]
+	  DstBlock		  "Voltage Sensor5"
+	  DstPort		  LConn1
+	}
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "LED4"
+      SrcPort		      RConn1
+      DstBlock		      "LED3"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Voltage Sensor1"
+      SrcPort		      LConn1
+      Points		      [0, -15; -95, 0]
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[0, -15]
+	DstBlock		"Current Sensor"
+	DstPort			RConn2
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[-50, 0]
+	DstBlock		"R10"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      Points		      [1390, 525; 0, -10]
+      DstBlock		      "LED3"
+      DstPort		      RConn1
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Current Sensor1"
+	SrcPort			LConn1
+	Points			[15, 0; 0, -70]
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Voltage Sensor2"
+	SrcPort			RConn2
+	Points			[0, 30; 60, 0]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "PS-Simulink\nConverter"
+      SrcPort		      LConn1
+      Points		      [-20, 0; 0, -125]
+      DstBlock		      "Voltage Sensor"
+      DstPort		      RConn1
+    }
+    Line {
+      SrcBlock		      "PS-Simulink\nConverter"
+      SrcPort		      1
+      Points		      [40, 0]
+      Branch {
+	Points			[25, 0; 0, -105; 100, 0]
+	DstBlock		"SNIMA NAPONE NA CCR1 I CCR1"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, 50; -90, 0]
+	DstBlock		"Data Type Conversion"
+	DstPort			1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "PS-Simulink\nConverter1"
+      SrcPort		      LConn1
+      Points		      [110, 0; 0, 60; 145, 0; 0, 80; 25, 0]
+      DstBlock		      "Voltage Sensor1"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "PS-Simulink\nConverter2"
+      SrcPort		      LConn1
+      Points		      [0, -45; 155, 0]
+      DstBlock		      "Voltage Sensor2"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Current Sensor"
+      SrcPort		      RConn1
+      Points		      [0, 10; -210, 0; 0, -25; -80, 0; 0, -65]
+      DstBlock		      "PS-Simulink\nConverter3"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Current Sensor1"
+      SrcPort		      RConn1
+      Points		      [-280, 0; 0, -440]
+      DstBlock		      "PS-Simulink\nConverter4"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Voltage Sensor4"
+      SrcPort		      RConn1
+      Points		      [45, 0; 0, -110]
+      DstBlock		      "PS-Simulink\nConverter5"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "PS-Simulink\nConverter7"
+      SrcPort		      LConn1
+      Points		      [15, 0]
+      DstBlock		      "Voltage Sensor5"
+      DstPort		      RConn1
+    }
+    Line {
+      SrcBlock		      "PS-Simulink\nConverter7"
+      SrcPort		      1
+      Points		      [-15, 0; 0, -50; 20, 0]
+      DstBlock		      "SNIMA NAPONE NA CCR1 I CCR1"
+      DstPort		      2
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "PS-Simulink\nConverter8"
+      SrcPort		      LConn1
+      Points		      [-150, 0; 0, 60; -15, 0]
+      DstBlock		      "LED1"
+      DstPort		      LConn1
+    }
+    Line {
+      SrcBlock		      "PS-Simulink\nConverter8"
+      SrcPort		      1
+      DstBlock		      "SNIMA NAPONE NA ULAZU I NA STRINGOVIMA DIODA1"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Diode1"
+      SrcPort		      RConn1
+      DstBlock		      "Diode2"
+      DstPort		      RConn1
+    }
+    Line {
+      SrcBlock		      "Clock"
+      SrcPort		      1
+      DstBlock		      "To Workspace"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion"
+      SrcPort		      1
+      DstBlock		      "To Workspace1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PS-Simulink\nConverter3"
+      SrcPort		      1
+      Points		      [-5, 0; 0, -5]
+      DstBlock		      "Data Type Conversion1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion1"
+      SrcPort		      1
+      Points		      [-55, 0]
+      DstBlock		      "To Workspace4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PS-Simulink\nConverter4"
+      SrcPort		      1
+      Points		      [-35, 0; 0, -45]
+      DstBlock		      "Data Type Conversion3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion3"
+      SrcPort		      1
+      DstBlock		      "To Workspace5"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PS-Simulink\nConverter5"
+      SrcPort		      1
+      Points		      [-40, 0; 0, -10]
+      DstBlock		      "Data Type Conversion2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion2"
+      SrcPort		      1
+      Points		      [-55, 0; 0, -25]
+      DstBlock		      "To Workspace6"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion4"
+      SrcPort		      1
+      Points		      [0, -55; 30, 0; 0, -35]
+      DstBlock		      "To Workspace7"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PS-Simulink\nConverter2"
+      SrcPort		      1
+      Points		      [-180, 0; 0, 20]
+      DstBlock		      "Data Type Conversion5"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion5"
+      SrcPort		      1
+      Points		      [-340, 0; 0, -30]
+      DstBlock		      "To Workspace3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "PS-Simulink\nConverter1"
+      SrcPort		      1
+      Points		      [-15, 5; 0, -135; -530, -5; 0, 110]
+      DstBlock		      "Data Type Conversion6"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion6"
+      SrcPort		      1
+      Points		      [-325, 0; 0, 455; 180, 0]
+      DstBlock		      "To Workspace2"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "R10"
+      SrcPort		      RConn1
+      Points		      [25, 0; 0, -45]
+      DstBlock		      "LED1"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Voltage Sensor3"
+      SrcPort		      RConn1
+      Points		      [-175, 0; 0, -65; -165, 0; 0, -60]
+      DstBlock		      "PS-Simulink\nConverter6"
+      DstPort		      LConn1
+    }
+    Line {
+      SrcBlock		      "PS-Simulink\nConverter6"
+      SrcPort		      1
+      Points		      [-45, 0; 0, 5]
+      DstBlock		      "Data Type Conversion4"
+      DstPort		      1
+    }
+  }
+}
